@@ -1,2 +1,2 @@
 [submodule "BackendApp"]
-	url = https://github.com/empios/BackendAppMagisterka.git
+	url = git@github.com:empios/BackendAppMagisterka.git
