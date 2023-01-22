@@ -1,0 +1,7 @@
+VueApp
+.idea
+/ReactApp/.env
+/ReactApp/.idea/
+/BackendApp/.env.*
+/BackendApp/dist/
+/BackendApp/.idea/
