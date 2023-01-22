@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.center-nav > ul {
+    align-items: center;
+}
+
+body > #app > div {
+    height: 100vh;
+}
+
+nav {
+    @apply bg-blue-300 !important;
+}
