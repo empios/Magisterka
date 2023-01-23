@@ -37,7 +37,12 @@ const NavBar: FC<Props> = ({ userToken }) => {
         className="bg-gray-600"
       >
         <Navbar.Brand>
-          <span className="self-center whitespace-nowrap text-xl font-semibold text-white dark:text-white">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+            className="mr-3 h-6 sm:h-9"
+            alt="React"
+          />
+          <span className="self-center whitespace-nowrap text-xl font-semibold text-gray-700 dark:text-white">
             MasterApp
           </span>
         </Navbar.Brand>
@@ -56,16 +61,14 @@ const NavBar: FC<Props> = ({ userToken }) => {
           ) }
           <Navbar.Toggle />
         </div>
-        <Navbar.Collapse>
+        <Navbar.Collapse className="center-nav">
           <Navbar.Link
-            className="text-blue-50"
             href="/"
             active={checkLocation(location.pathname, Pathnames.HOME)}
           >
             Home
           </Navbar.Link>
           <Navbar.Link
-            className="text-blue-50"
             href="/second"
             active={checkLocation(location.pathname, Pathnames.SECOND)}
           >

@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+nav {
+    @apply bg-gray-300 !important;
+}
+
+footer {
+    @apply bg-gray-300 !important;
+    @apply rounded-none !important;
+}
+
+footer > div > span {
+    @apply text-gray-700 !important;
+}
+
+.center-nav > ul {
+    align-items: center;
+}
