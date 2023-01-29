@@ -11,6 +11,8 @@ module.exports = {
         "import/no-extraneous-dependencies": "off",
         "vue/multi-word-component-names": "off",
         "import/prefer-default-export": "off",
-        "class-methods-use-this": "off"
+        "class-methods-use-this": "off",
+        "vuejs-accessibility/click-events-have-key-events": "off",
+        "no-underscore-dangle": "off"
     }
 }
