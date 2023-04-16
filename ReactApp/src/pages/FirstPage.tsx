@@ -28,10 +28,10 @@ const FirstPage = () => {
   }, []);
 
   return (
-    <div className="h-[calc(100vh-5rem)]">
+    <div>
       <NavBar userToken={userToken} />
       {userToken ? (
-        <Card className="lg:mx-64 mt-10">
+        <Card className="lg:mx-64 mt-10" id="postTable">
           <h1 className="mt-5 text-center text-xl">Recent Post List</h1>
           <div className="grid h-full place-items-center mb-10">
             <div className="w-96">
@@ -40,6 +40,7 @@ const FirstPage = () => {
           </div>
         </Card>
       ) : <LogLess />}
+      <div className="mt-10 mb-28" />
       <FooterPage />
     </div>
   );

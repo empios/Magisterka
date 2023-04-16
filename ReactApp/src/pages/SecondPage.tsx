@@ -7,7 +7,7 @@ import FooterPage from '../components/Footer';
 const SecondPage = () => {
   const userToken = localStorage.getItem('token');
   return (
-    <div className="h-[calc(100vh-5rem)]">
+    <div>
       <NavBar userToken={userToken} />
       {userToken ? (<UserPostTable />) : <LogLess />}
       <FooterPage />

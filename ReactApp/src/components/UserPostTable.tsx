@@ -76,7 +76,7 @@ const UserPostTable: FC<Props> = () => {
   };
 
   return (
-    <div className="h-full">
+    <div className="h-full mb-28">
       <div className="flex justify-end mr-4 mt-10">
         <Button color="success" onClick={() => setShow(true)}>Add Post</Button>
       </div>

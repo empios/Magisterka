@@ -1,5 +1,5 @@
 <template>
-  <div class="col-span-1">
+  <div class="col-span-1 mb-28">
     <the-card class="my-5 mx-auto">
       <h1 v-text="props.message" />
       <div class="flex">
